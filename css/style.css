@@ -380,7 +380,7 @@ a:focus {
 
 #navbarmain .nav-link {
   font-weight: 600;
-  padding: 10px 10px;
+  padding: 10px 20px;
   color: #222;
   font-family: "Exo", sans-serif;
   text-transform: capitalize;
@@ -630,9 +630,13 @@ a:focus {
 }
 
 .feature-item p {
-  font-size: 16px;
+  font-size: 16px;`
 }
-
+.feature-item img{
+  width: 50px;
+  height: 55px;
+  margin-top:-10px;
+}
 .feature-section.border-top {
   border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
@@ -686,7 +690,7 @@ a:focus {
 
 .service .icon {
   float: left;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .service i {
@@ -696,7 +700,11 @@ a:focus {
 .service h4 {
   padding-left: 20px;
 }
-
+.service img{
+  color:#152440;
+  width: 50px;
+  height: 55px;
+}
 .service .content {
   clear: both;
 }
@@ -710,6 +718,7 @@ a:focus {
 
 .service-block img {
   width: 100%;
+  height: 180px;
   margin-top: -60px;
   border: 5px solid #fff;
 }
